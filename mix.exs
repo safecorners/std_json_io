@@ -14,7 +14,11 @@ defmodule StdJsonIo.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :porcelain]]
+    [
+      applications: [:logger, :porcelain],
+      included_applications: [:fs]
+    ]
+    
   end
 
   # Dependencies can be Hex packages:
