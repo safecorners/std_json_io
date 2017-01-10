@@ -1,0 +1,2 @@
+defmodule StdJsonIo do
+end
